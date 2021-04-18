@@ -1,0 +1,28 @@
+.logo img {
+  display: block;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 58px;
+  width: 165px;
+}
+
+.menu {
+  font-family: Helvetica;
+  text-align: center;
+  word-spacing: 20px;
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+
+a {
+  color: rgb(88, 89, 91);
+  text-decoration: none;
+}
+
+.home img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
