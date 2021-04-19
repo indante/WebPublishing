@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  font-family: Jua;
+}
+
+body {
+  text-align: center;
+  background-color: #F0E8D9;
+}
+
+@font-face {
+  src: url("fonts/BMJUA_otf.otf");
+  font-family: "Jua";
+}
+
+.title {
+  margin: 75px;
+  color: #58595B;
+}
+
+h1 {
+  font-size: 64px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+.chicken {
+  background-color: white;
+  border-radius: 10px;
+  display: inline-block;
+  width: 300px;
+}
+
+.chicken img {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.p1 {
+  margin: 0;
+}
