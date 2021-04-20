@@ -1,45 +1,66 @@
+@font-face {
+  src: url("fonts/BMJUA_otf.otf");
+  font-family: "Jua";
+}
+
 * {
   box-sizing: border-box;
   font-family: Jua;
 }
 
 body {
-  text-align: center;
   background-color: #F0E8D9;
 }
 
-@font-face {
-  src: url("fonts/BMJUA_otf.otf");
-  font-family: "Jua";
-}
-
-.title {
-  margin: 75px;
-  color: #58595B;
-}
-
 h1 {
+  text-align: center;
   font-size: 64px;
+  color: #58595b;
+  margin-top: 75px;
   margin-bottom: 30px;
+
 }
 
 h2 {
+  text-align: center;
   font-size: 32px;
+  color: #58595b;
+  margin-bottom: 75px;
+
 }
 
-.chicken {
+.food {
   background-color: white;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 10px;
-  display: inline-block;
-  width: 300px;
+  overflow: hidden;
+  margin-bottom: 50px;
 }
 
-.chicken img {
-  width: 300px;
-  height: 200px;
-  border-radius: 10px 10px 0px 0px;
+.food .info {
+  padding: 20px;
+  text-align: center;
 }
 
-.p1 {
-  margin: 0;
+.food h3 {
+  color: #58595b;
+  font-size: 32px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.food p {
+  color: #58595b;
+  font-size: 16px;
+  margin-top: 0px;
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.food a {
+  color: #0000ee;
+  font-size: 16px;
+  text-decoration: none;
 }
