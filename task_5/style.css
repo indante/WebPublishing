@@ -9,39 +9,41 @@ body {
 }
 
 .login-form {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #EEEFF1;
   padding: 20px;
+  background-color: #EEEFF1;
   width: 300px;
+  display: block;
+  margin: 50px auto auto auto;
   border-radius: 5px;
-  text-align: center;
 }
 
 .text-field {
   font-size: 14px;
-  border: solid 0px;
-  border-radius: 5px;
+  border-style: none;
   padding: 10px;
   margin-bottom: 10px;
-  width: 100%;
+  border-radius: 5px;
+  width: 260px;
+  color: #9B9B9B;
 }
 
 .submit-btn {
   font-size: 14px;
   background-color: #1BBC9B;
-  color: white;
-  border: solid 0px;
-  border-radius: 5px;
-  margin-bottom: 30px;
-  width: 100%;
+  border-style: none;
   padding: 10px;
+  margin: auto auto 20px auto;
+  border-radius: 5px;
+  width: 260px;
+  color: white;  
+}
+
+.submit-btn:hover {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.50);
 }
 
 .links {
-  
+  text-align: center;  
 }
 
 .links a {
